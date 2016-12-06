@@ -7,3 +7,6 @@ package.json - Dependencies
 package.json - devDependencies
 を参照
 
+# 実行方法
+% npm start
+
