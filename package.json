@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/okuhiiro/ElectronEditor/issues"
   },
-  "homepage": "https://github.com/okuhiiro/ElectronEditor#readme"
+  "homepage": "https://github.com/okuhiiro/ElectronEditor#readme",
+  "devDependencies": {
+    "electron-packager": "^8.3.0",
+    "electron-prebuilt": "^1.4.10"
+  }
 }
