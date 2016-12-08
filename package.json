@@ -6,7 +6,6 @@
   "scripts": {
     "test": "node scripts/test",
     "start": "electron .",
-
     "start_full_option": "electron . --user-data-dir aa/bb --locale hogehoge"
   },
   "repository": {
@@ -22,5 +21,8 @@
   "devDependencies": {
     "electron-prebuilt": "^1.4.10",
     "electron-packager": "^8.3.0"
+  },
+  "dependencies": {
+    "app-module-path": "^2.1.0"
   }
 }
