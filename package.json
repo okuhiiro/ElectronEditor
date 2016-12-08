@@ -4,8 +4,10 @@
   "description": "",
   "main": "src/main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "electron ."
+    "test": "node scripts/test",
+    "start": "electron .",
+
+    "start_full_option": "electron . --user-data-dir aa/bb --locale hogehoge"
   },
   "repository": {
     "type": "git",
@@ -18,7 +20,7 @@
   },
   "homepage": "https://github.com/okuhiiro/ElectronEditor#readme",
   "devDependencies": {
-    "electron-packager": "^8.3.0",
-    "electron-prebuilt": "^1.4.10"
+    "electron-prebuilt": "^1.4.10",
+    "electron-packager": "^8.3.0"
   }
 }

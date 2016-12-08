@@ -3,10 +3,15 @@
 * npm 3.10.8
 
 # ローカルの必要なモジュール及び各種バージョン
-package.json - Dependencies
-package.json - devDependencies
+* package.json - Dependencies
+* package.json - devDependencies
+
 を参照
 
 # 実行方法
+## 起動
 % npm start
+
+## テスト実行
+% npm test
 
