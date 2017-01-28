@@ -6,6 +6,7 @@
   "scripts": {
     "test": "node scripts/test",
     "start": "electron .",
+
     "start_full_option": "electron . --user-data-dir aa/bb --locale hogehoge"
   },
   "repository": {
