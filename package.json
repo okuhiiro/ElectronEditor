@@ -7,7 +7,7 @@
     "test": "node scripts/test",
     "start": "electron .",
 
-    "start_full_option": "electron . --user-data-dir aa/bb --locale hogehoge"
+    "start_full_option": "electron . --user-data-dir aa/bb --config-file hogehoge"
   },
   "repository": {
     "type": "git",
