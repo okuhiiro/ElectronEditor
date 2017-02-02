@@ -10,6 +10,7 @@ const minimist = require('minimist');
 require('app-module-path').addPath(__dirname);
 
 const paths = require('paths');
+const loader = require('loader');
 
 // Usage:
 //  node_modules\.bin\electron . --user-data-dir <path> --config-file <path>
@@ -50,6 +51,5 @@ function getConfigFile() {
 
 //console.log(app.getPath('userData'));
 //console.log(getUserDataDir());
-getConfigFile();
 
 app.quit();
