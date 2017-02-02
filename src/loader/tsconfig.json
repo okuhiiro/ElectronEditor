@@ -1,0 +1,20 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "target": "es5",
+        "newLine": "LF",
+        "noImplicitAny": true,
+        "noUnusedLocals": true,
+        "outFile": "../loader.js",
+        "removeComments": true,
+        "sourceMap": false,
+        "declaration": true
+    },
+    "files": [
+        "moduleManager.ts",
+        "main.ts"
+    ],
+    "exclude": [
+        "node_modules"
+    ]
+}
