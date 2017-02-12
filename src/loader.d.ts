@@ -1,3 +1,7 @@
+declare const _amdLoaderGlobal: any;
+declare namespace AMDLoader {
+    const global: any;
+}
 declare namespace AMDLoader {
     class ModuleManager {
     }

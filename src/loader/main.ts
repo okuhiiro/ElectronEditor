@@ -3,12 +3,14 @@
 var define;
 
 namespace AMDLoader {
-    // let moduleManager: ModuleManager;
-    // let loaderAvailableTimestamp: number;
+    let moduleManager: ModuleManager;
+    let loaderAvailableTimestamp: number;
 
-    // console.log(global.define);
-    // if (typeof global.define !== 'function')
-    // {   
-    // }
+    function init(): void {
+        console.log('Call: main.ts: init');
 
+        moduleManager = new ModuleManager();
+    }
+
+    init();
 }

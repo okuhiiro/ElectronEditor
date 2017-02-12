@@ -10,6 +10,7 @@
         "declaration": true
     },
     "files": [
+        "env.ts",
         "moduleManager.ts",
         "main.ts"
     ],

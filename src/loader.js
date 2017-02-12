@@ -1,3 +1,8 @@
+var _amdLoaderGlobal = this;
+var AMDLoader;
+(function (AMDLoader) {
+    AMDLoader.global = _amdLoaderGlobal;
+})(AMDLoader || (AMDLoader = {}));
 var AMDLoader;
 (function (AMDLoader) {
     var ModuleManager = (function () {
@@ -13,6 +18,8 @@ var AMDLoader;
 (function (AMDLoader) {
     var moduleManager;
     var loaderAvailableTimestamp;
-    if (typeof global.define !== 'function') {
+    function init() {
+        console.log('Call: main.ts: init');
     }
+    init();
 })(AMDLoader || (AMDLoader = {}));
