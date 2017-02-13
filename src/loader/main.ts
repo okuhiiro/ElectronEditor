@@ -1,15 +1,15 @@
 'use strict';
 
-var define;
+//var define;
 
 namespace AMDLoader {
     let moduleManager: ModuleManager;
-    let loaderAvailableTimestamp: number;
+    //let loaderAvailableTimestamp: number;
 
     function init(): void {
         console.log('Call: main.ts: init');
 
-        moduleManager = new ModuleManager();
+        moduleManager = new ModuleManager(scriptLoader, Date.now());
     }
 
     init();

@@ -12,6 +12,7 @@
     "files": [
         "env.ts",
         "moduleManager.ts",
+        "scriptLoader.ts",
         "main.ts"
     ],
     "exclude": [
