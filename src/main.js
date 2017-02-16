@@ -4,9 +4,9 @@ const electron = require('electron');
 const app = electron.app;
 const path = require('path');
 const fs = require('fs');
-// コマンドライン引数パーサ
+// コマンドライン引数パ�?�サ
 const minimist = require('minimist');
-// src/～以下で絶対パスでrequireできるように
+// src/?��以下で絶対パスでrequireできるように
 require('app-module-path').addPath(__dirname);
 
 const paths = require('paths');
@@ -51,5 +51,10 @@ function getConfigFile() {
 
 //console.log(app.getPath('userData'));
 //console.log(getUserDataDir());
+loader(
+    ['vs/code/electron-main/main'],
+    function () {},
+    function (err) {console.error(err);}
+);
 
 app.quit();
